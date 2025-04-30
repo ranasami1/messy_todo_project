@@ -48,7 +48,7 @@ function toggle(index) {
 }
 
 function deleteTask(i) {
-  data[i] = "undefined"; // BAD PRACTICE: Leaves holes in array
+  data.splice(i,1); //splice function to delete specific index in aray
   b();
 }
 
