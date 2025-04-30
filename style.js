@@ -53,7 +53,7 @@ function deleteTask(i) {
 }
 
 
-async function monitorTasks() {
+async function monitorTasks() { //replaced setinterval function
     while (true) {
       let allDone = true;
   
